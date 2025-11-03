@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TiendaX - Crea tu Tienda Virtual</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/862/862856.png">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- NAVBAR -->
+    <header class="bg-white shadow-md fixed w-full top-0 left-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#inicio" class="flex items-center space-x-2">
+                <span class="text-xl font-bold text-blue-600">TiendaX</span>
+            </a>
+
+            <!-- Navegación -->
+            <nav class="space-x-6 hidden md:flex">
+                <a href="#inicio" class="hover:text-blue-600">Inicio</a>
+                <a href="#beneficios" class="hover:text-blue-600">Beneficios</a>
+                <a href="#fundadores" class="hover:text-blue-600">Campaña Fundadores</a>
+                <a href="#servicios" class="hover:text-blue-600">Servicios</a>
+                <a href="#contacto" class="hover:text-blue-600">Contacto</a>
+            </nav>
+
+            <!-- Botón contacto -->
+            <a href="https://wa.me/51999999999" target="_blank"
+                class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+                Contáctanos
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO MEJORADO -->
+    <section id="inicio" class="pt-32 pb-20 bg-gradient-to-r from-blue-50 to-blue-100">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6">
+            <!-- Texto principal -->
+            <div class="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
+                <h2 class="text-5xl font-extrabold text-gray-900 leading-tight mb-4">
+                    Crea tu <span class="text-blue-600">Tienda Virtual</span> con TiendaX 🚀
+                </h2>
+                <p class="text-lg text-gray-700 mb-6">
+                    Diseñada para todo tipo de emprendedores: desde quienes recién comienzan hasta negocios
+                    consolidados.
+                    Crea tu tienda, muestra tus productos y vende directamente por WhatsApp sin comisiones.
+                </p>
+                <div class="space-x-4">
+                    <a href="#fundadores"
+                        class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+                        Únete ahora
+                    </a>
+                    <a href="#servicios"
+                        class="bg-white border border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+                        Ver servicios
+                    </a>
+                </div>
+            </div>
+
+            <!-- Imagen hero -->
+            <div class="md:w-1/2 flex justify-center">
+                <img src="hero.jpg"
+                    alt="Tienda Virtual TiendaX" class="w-full max-w-md rounded-xl shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section id="beneficios" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h3 class="text-3xl font-bold mb-10 text-blue-600">¿Por qué elegir TiendaX?</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 shadow-md rounded-xl bg-gray-50 hover:shadow-lg transition">
+                    <h4 class="text-xl font-semibold mb-3 text-blue-600">Sin comisiones</h4>
+                    <p>Vende directamente por WhatsApp sin pagar comisiones ni depender de intermediarios.</p>
+                </div>
+                <div class="p-6 shadow-md rounded-xl bg-gray-50 hover:shadow-lg transition">
+                    <h4 class="text-xl font-semibold mb-3 text-blue-600">Fácil de usar</h4>
+                    <p>Sube tus productos, personaliza tu tienda y empieza a vender en minutos, sin conocimientos
+                        técnicos.</p>
+                </div>
+                <div class="p-6 shadow-md rounded-xl bg-gray-50 hover:shadow-lg transition">
+                    <h4 class="text-xl font-semibold mb-3 text-blue-600">Pensado para todos</h4>
+                    <p>Ideal para emprendedores nuevos, medianos o grandes que buscan crecer online.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CAMPAÑA FUNDADORES -->
+    <section id="fundadores" class="py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <h3 class="text-3xl font-bold mb-6">🎉 Campaña Fundadores TiendaX</h3>
+            <p class="text-lg mb-8">Aprovecha nuestro precio exclusivo de lanzamiento.</p>
+            <div class="bg-white text-blue-700 rounded-xl p-8 shadow-xl">
+                <p class="text-2xl font-semibold mb-4">💰 Precio regular: <s>S/200</s></p>
+                <p class="text-3xl font-bold mb-4">✨ 50% de descuento los 3 primeros meses (S/100)</p>
+                <p class="text-xl mb-6">Luego, tarifa preferencial permanente de <span class="font-bold">S/150</span>
+                    mensuales</p>
+                <a href="https://wa.me/51999999999" target="_blank"
+                    class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">¡Quiero ser
+                    fundador!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS ADICIONALES -->
+    <section id="servicios" class="py-16 bg-gray-50 text-center">
+        <div class="max-w-6xl mx-auto px-6">
+            <h3 class="text-3xl font-bold mb-10 text-blue-600">Más que una plataforma</h3>
+            <p class="text-lg text-gray-700 mb-10">En TiendaX también desarrollamos soluciones personalizadas para tu
+                negocio.</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <h4 class="text-xl font-semibold text-blue-600 mb-3">Landing Pages Personalizadas</h4>
+                    <p>Diseños únicos para captar clientes y mostrar tu marca de forma profesional.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <h4 class="text-xl font-semibold text-blue-600 mb-3">Desarrollo de Sistemas</h4>
+                    <p>Soluciones a medida para automatizar procesos de tu negocio.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <h4 class="text-xl font-semibold text-blue-600 mb-3">Soporte Técnico Dedicado</h4>
+                    <p>Atención personalizada ante cualquier mejora, duda o personalización.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EQUIPO -->
+    <section class="py-20 bg-white text-center">
+        <h3 class="text-3xl font-bold mb-10 text-blue-600">Equipo Emprendedor</h3>
+        <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-10 px-6">
+            <div class="p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <h4 class="text-xl font-semibold mb-2 text-gray-800">Saul Chávez</h4>
+                <p class="text-blue-600 font-medium mb-2">Co-fundador y Director Técnico</p>
+                <p>Encargado del desarrollo de la plataforma, soporte técnico y contacto directo con los clientes para
+                    mejoras o personalizaciones.</p>
+            </div>
+            <div class="p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <h4 class="text-xl font-semibold mb-2 text-gray-800">Karina Servan</h4>
+                <p class="text-blue-600 font-medium mb-2">Co-fundadora y Directora Administrativa</p>
+                <p>Encargada de la gestión administrativa, coordinación operativa y estrategias comerciales de TiendaX.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contacto" class="bg-blue-900 text-white pt-16 pb-6">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-4 gap-10 text-center md:text-left">
+            <!-- Logo y descripción -->
+            <div>
+                <div class="flex items-center justify-center md:justify-start space-x-2 mb-4">
+                    <h4 class="text-2xl font-bold">TiendaX</h4>
+                </div>
+                <p class="text-gray-300 text-sm leading-relaxed">
+                    Impulsa tu negocio con una tienda virtual moderna, rápida y sin comisiones. Pensada para
+                    emprendedores
+                    de todos los niveles.
+                </p>
+            </div>
+
+            <!-- Enlaces rápidos -->
+            <div>
+                <h5 class="text-lg font-semibold mb-4 text-white">Enlaces rápidos</h5>
+                <ul class="space-y-2 text-gray-300">
+                    <li><a href="#inicio" class="hover:text-white transition">Inicio</a></li>
+                    <li><a href="#beneficios" class="hover:text-white transition">Beneficios</a></li>
+                    <li><a href="#fundadores" class="hover:text-white transition">Campaña Fundadores</a></li>
+                    <li><a href="#servicios" class="hover:text-white transition">Servicios</a></li>
+                    <li><a href="#contacto" class="hover:text-white transition">Contacto</a></li>
+                </ul>
+            </div>
+
+            <!-- Contacto -->
+            <div>
+                <h5 class="text-lg font-semibold mb-4 text-white">Contáctanos</h5>
+                <ul class="space-y-3 text-gray-300 text-sm">
+                    <li>📧 <a href="mailto:contacto@tiendax.com" class="hover:text-white">contacto@tiendax.com</a></li>
+                    <li>📞 <a href="https://wa.me/51987654321" target="_blank" class="hover:text-white">+51 987 654
+                            321</a>
+                    </li>
+                    <li>📞 <a href="https://wa.me/51912345678" target="_blank" class="hover:text-white">+51 912 345
+                            678</a>
+                    </li>
+                    <li>🕒 Lunes a Sábado: 9:00 am - 8:00 pm</li>
+                </ul>
+            </div>
+
+            <!-- Redes Sociales -->
+            <div>
+                <h5 class="text-lg font-semibold mb-4 text-white">Síguenos</h5>
+                <div class="flex justify-center md:justify-start space-x-5">
+                    <a href="https://facebook.com/" target="_blank" class="hover:text-blue-400 transition"
+                        aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path
+                                d="M22 12a10 10 0 1 0-11.6 9.9v-7H8v-3h2.4V9.5C10.4 7 12 5.7 14.2 5.7c1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12H16l-.4 3h-2.2v7A10 10 0 0 0 22 12z" />
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com/" target="_blank" class="hover:text-pink-400 transition"
+                        aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path
+                                d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10zm-5 3.5A4.5 4.5 0 1 0 16.5 12 4.5 4.5 0 0 0 12 7.5zm0 7.5A3 3 0 1 1 15 12a3 3 0 0 1-3 3zm4.8-8.8a1.1 1.1 0 1 0 1.1 1.1 1.1 1.1 0 0 0-1.1-1.1z" />
+                        </svg>
+                    </a>
+                    <a href="https://tiktok.com/" target="_blank" class="hover:text-gray-200 transition"
+                        aria-label="TikTok">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2c1.5 0 2.8.5 3.9 1.3v4.4a5.7 5.7 0 0 0 3.5 1.2v3.3a8.8 8.8 0 0 1-3.5-.7v5.5a5.6 5.6 0 1 1-5.6-5.6c.3 0 .5 0 .8.1v3.2a2.3 2.3 0 1 0 1.8 2.2V2h-.9z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Línea divisoria -->
+        <div class="border-t border-blue-800 mt-10 pt-6 text-center text-sm text-gray-300">
+            <p>© 2025 <span class="font-semibold text-white">TiendaX</span>. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <!-- SCRIPT -->
+    <script>
+        console.log("🌐 TiendaX lista para ayudarte a vender online 🚀");
+    </script>
+
+</body>
+
+</html>
