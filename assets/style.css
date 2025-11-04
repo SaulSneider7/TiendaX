@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Animación del menú móvil */
+#menuMovil {
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+#menuMovil:not(.hidden) {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
