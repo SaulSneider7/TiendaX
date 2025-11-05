@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Animación del menú móvil */
@@ -14,4 +15,3 @@ html {
     transform: scaleY(1);
     opacity: 1;
 }
-
